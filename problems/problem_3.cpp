@@ -1,5 +1,6 @@
+#include "iostreaam"
 #include <string>
-
+using namespace std;
 std::string problemSolution3(float height, char S) {
     string result;
     // write your code here
@@ -12,7 +13,7 @@ cin>>s>>height;
         } else{
             result="Tall";
         }
-    } else{
+    } else if (S==70){
         if (height<1.60){
             result="Short";
         } else if (height>=1.60&&height<1.75){
@@ -20,8 +21,17 @@ cin>>s>>height;
         } else{
             result="Tall";
         }
+    } else {
+        result="Invalid input";
     }
     return result;
-    // use return to return your result
-    // make use of control flow statements
+}
+int main() {
+    float height;
+    char S;
+    cout <<"Enter the gender" <<endl;
+    cin >> S;
+    cout <<"Enter the height" <<endl;
+    cin >> height;
+    cout <<problemSolution3(height, S);
 }

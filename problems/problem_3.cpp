@@ -1,6 +1,4 @@
-#include "iostreaam"
 #include <string>
-using namespace std;
 std::string problemSolution3(float height, char S) {
     string result;
     // write your code here
@@ -26,6 +24,8 @@ cin>>s>>height;
     }
     return result;
 }
+#include "iostreaam"
+using namespace std;
 int main() {
     float height;
     char S;

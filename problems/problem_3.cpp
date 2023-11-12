@@ -22,14 +22,3 @@ std::string problemSolution3(float height, char S) {
     }
     return result;
 }
-#include "iostreaam"
-using namespace std;
-int main() {
-    float height;
-    char S;
-    cout <<"Enter the gender" <<endl;
-    cin >> S;
-    cout <<"Enter the height" <<endl;
-    cin >> height;
-    cout <<problemSolution3(height, S);
-}

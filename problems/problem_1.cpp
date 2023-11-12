@@ -1,5 +1,3 @@
-#include "iostream"
-using namespace std;
 float problemSolution1(float consumed_water) {
     float cost;
     // write your code here
@@ -15,6 +13,8 @@ float problemSolution1(float consumed_water) {
     }
     return cost;
 }
+#include "iostream"
+using namespace std;
 int main (){
     float consumed_water;
     float cost;

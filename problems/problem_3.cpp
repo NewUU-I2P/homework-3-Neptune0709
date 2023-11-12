@@ -11,6 +11,7 @@ std::string problemSolution3(float height, char S) {
             } else {
                 result = "Tall";
             }
+            break;
         case 70:
             if (height<1.60){
                 result="Short";
@@ -19,8 +20,10 @@ std::string problemSolution3(float height, char S) {
             } else{
                 result="Tall";
             }
+            break;
         default :
             result="Invalid input";
+            break;
     }
     return result;
 }

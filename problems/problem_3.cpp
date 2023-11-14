@@ -1,6 +1,6 @@
 #include <string>
 std::string problemSolution3(float height, char S) {
-    string result;
+   std:: string result;
     // write your code here
     switch (S){
         case 'M':

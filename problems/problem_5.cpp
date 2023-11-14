@@ -17,16 +17,3 @@ float problemSolution5(float x, float y, char operation) {
     }
    return result;
 }
-#include "iostream"
-using namespace std;
-int main (){
-    float x;
-    float y;
-    char operation;
-    cout<<"Enter two integers:"<<endl;
-    cin>>x>>y;
-    cout<<"Choose the operation (+,-,*,/):"<<endl;
-    cin>>operation;
-    cout<<problemSolution5(x, y, operation);
-
-}

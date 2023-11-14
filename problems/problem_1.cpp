@@ -13,11 +13,3 @@ float problemSolution1(float consumed_water) {
     }
     return cost;
 }
-#include "iostream"
-using namespace std;
-int main (){
-    float consumed_water;
-    float cost;
-    cin>>consumed_water;
-    cout<<problemSolution1(consumed_water);
-}

@@ -5,24 +5,21 @@ std::string problemSolution3(float height, char S) {
     switch (S){
         case 'M':
             if (height<1.70){   
-                result="Short";
+                result = "Short";
             } else if (height>=1.70&&height<1.85){
-                result="Normal";
+                result = "Normal";
             } else {
                 result = "Tall";
             }
             break;
         case 'F':
             if (height<1.60){
-                result="Short";
+                result = "Short";
             } else if (height>=1.60&&height<1.75){
-                result="Normal";
+                result = "Normal";
             } else{
-                result="Tall";
+                result = "Tall";
             }
-            break;
-        default :
-            result="Invalid input";
             break;
     }
     return result;
